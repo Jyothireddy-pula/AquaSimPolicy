@@ -3,8 +3,6 @@
 ### A Policy-First Environmental Simulation Platform  
 **SimVerse Hackathon Project**
 
-🔗 **Live Demo:** https://simversehackthon.vercel.app  
-
 ---
 
 ## 🚨 The Core Problem

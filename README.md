@@ -1,3 +1,116 @@
+# 🌊 AquaSimPolicy
+### A Policy-First Water Pollution Simulation Platform  
+**SimVerse Hackathon Project**
+
+---
+
+## 📌 Overview
+
+**AquaSimPolicy** is a web-based environmental simulation platform designed to help policymakers, researchers, and planners evaluate **water pollution control policies before real-world implementation**.
+
+The platform enables **predictive, scenario-based decision-making**, reducing uncertainty, cost, and risk in environmental policy planning.
+
+---
+
+## 🚨 Problem Statement
+
+Water pollution is not only an environmental crisis — it is a **policy planning and execution challenge**.
+
+Key challenges today:
+- Environmental actions are taken only after damage becomes visible  
+- Policymakers cannot safely test policies in advance  
+- Real-world experimentation is costly and irreversible  
+- Policy outcomes are uncertain and difficult to compare  
+
+There is no controlled environment to evaluate water-pollution policies **before enforcement**.
+
+---
+
+## 💡 Proposed Solution
+
+AquaSimPolicy provides a **virtual decision-testing environment** where users can:
+
+**Simulate pollution → Apply policy interventions → Predict outcomes → Compare scenarios**
+
+This approach transforms environmental planning from **reactive correction** into **predictive policy evaluation**.
+
+---
+
+## 🧠 Core Design Principle
+
+> *Predict environmental impact before enforcing environmental policy.*
+
+---
+
+## 🔁 System Workflow
+
+1. **Environment Configuration**
+   - Select simulation scope (local or regional)
+   - Define baseline pollution levels
+
+2. **Pollution Source Modeling**
+   - Industrial waste discharge  
+   - Agricultural chemical runoff  
+   - Urban sewage contribution  
+
+3. **Baseline Simulation**
+   - Rule-based models simulate pollution accumulation
+   - Establishes a no-policy reference scenario
+
+4. **Policy Intervention Layer**
+   - Pollution control regulations  
+   - Treatment efficiency parameters  
+   - Policy strictness levels  
+
+5. **Re-Simulation**
+   - Measures pollution reduction trends  
+   - Tracks environmental recovery indicators  
+
+6. **Scenario Comparison & Insights**
+   - Visual comparison of baseline and policy outcomes  
+   - Decision-oriented insights for evaluation  
+
+---
+
+## ⚙️ Key Features
+
+- Environmental pollution simulation engine  
+- Policy-driven intervention modeling  
+- Rule-based and explainable simulation logic  
+- Visual indicators for trends and outcomes  
+- Scenario comparison system  
+- Clean, minimal, professional UI  
+
+---
+
+## 📈 Simulation Outputs
+
+AquaSimPolicy generates **decision-focused outputs**, including:
+- Pollution intensity trends  
+- Environmental recovery indicators  
+- Policy effectiveness comparisons  
+- Sustainability impact visualizations  
+
+These outputs are designed to support **planning and evaluation**, not just data display.
+
+---
+
+## 🧩 Technology Stack
+
+| Layer | Technology |
+|------|-----------|
+| Frontend | React + TypeScript |
+| Build Tool | Vite |
+| Architecture | Component-based |
+| Logic Layer | Rule-based simulation models |
+| Visualization | Dynamic charts & indicators |
+| Deployment | Vercel |
+
+---
+
+## 📂 Repository Structure
+
+
 aquasimpolicy/
 ├── components/ # UI and visualization components
 ├── services/ # Simulation and policy logic

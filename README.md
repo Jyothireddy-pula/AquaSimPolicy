@@ -1,130 +1,23 @@
+aquasimpolicy/
+├── components/ # UI and visualization components
+├── services/ # Simulation and policy logic
+├── constants.ts # Environmental parameters
+├── types.ts # Type-safe domain models
+├── App.tsx # Application root
+├── index.tsx # Entry point
+├── index.html # Base HTML
+├── metadata.json # Project metadata
+├── package.json # Dependencies and scripts
+├── tsconfig.json # TypeScript configuration
+└── vite.config.ts # Vite setup
 
-# 🌊 Water Pollution Control Simulator
-### A Policy-First Environmental Simulation Platform  
-**SimVerse Hackathon Project**
-
----
-
-## 🚨 The Core Problem
-
-Water pollution is not only an environmental crisis — it is a **policy execution problem**.
-
-Today:
-- Industrial discharge, agricultural runoff, and urban sewage contaminate freshwater sources  
-- Environmental actions are taken **after damage is visible**  
-- Policymakers lack tools to **test decisions before enforcement**  
-- Mistakes are **expensive, irreversible, and harmful to ecosystems**  
-
-**There is no safe environment to evaluate water-pollution policies before applying them in reality.**
 
 ---
 
-## 💡 The Solution
-
-The **Water Pollution Control Simulator** is a **virtual decision-testing platform** that allows users to:
-
-> **Simulate pollution → apply environmental policies → predict outcomes → compare scenarios — before real-world deployment.**
-
-It converts environmental planning from **reactive correction** into **predictive decision-making**.
-
----
-
-## 🧠 Core Principle
-
-> *“Predict environmental impact before enforcing environmental policy.”*
-
----
-
-## 🔁 End-to-End System Workflow
-
-1. **Environment Configuration**
-   - Select simulation scope (local / regional)
-   - Define baseline pollution intensity
-
-2. **Pollution Source Modeling**
-   - Industrial waste discharge  
-   - Agricultural chemical runoff  
-   - Urban sewage contribution  
-
-3. **Baseline Simulation**
-   - Rule-based models simulate pollution accumulation over time  
-   - Establishes a reference (no-policy) scenario  
-
-4. **Policy Intervention Layer**
-   - Pollution control regulations  
-   - Treatment efficiency levels  
-   - Policy strictness parameters  
-
-5. **Re-Simulation**
-   - Measures pollution reduction trends  
-   - Tracks environmental recovery indicators  
-
-6. **Scenario Comparison & Insights**
-   - Visual comparison between baseline and policy-applied outcomes  
-   - Decision-support insights for policymakers  
-
----
-
-## ⚙️ Key Capabilities
-
-- 🌍 Environmental pollution simulation engine  
-- 🏛️ Policy-driven intervention modeling  
-- 🧠 Rule-based simulation logic  
-- 📊 Visual outcome indicators & trends  
-- 🔁 Scenario comparison system  
-- 🖥️ Clean, minimal, professional UI  
-
----
-
-## 📈 Simulation Outputs
-
-The simulator produces **decision-oriented insights**, including:
-
-- Pollution intensity trends  
-- Environmental recovery signals  
-- Policy effectiveness comparison  
-- Sustainability impact visualization  
-
-> Outputs are designed to support **planning and evaluation**, not just display.
-
----
-
-## 🧩 Technology Stack
-
-| Layer | Technology |
-|------|-----------|
-| Frontend | React + TypeScript |
-| Build Tool | Vite |
-| Architecture | Component-based |
-| Logic Layer | Rule-based simulation models |
-| Visualization | Dynamic charts & indicators |
-| Deployment | Vercel |
-
----
-
-## 📂 Repository Structure
-
-```
-simversehackthon/
-├── components/        # UI and visualization components
-├── services/          # Simulation and policy logic
-├── constants.ts       # Environmental parameters
-├── types.ts           # Type-safe domain models
-├── App.tsx            # Application root
-├── index.tsx          # Entry point
-├── index.html         # Base HTML
-├── metadata.json      # Project metadata
-├── package.json       # Dependencies and scripts
-├── tsconfig.json      # TypeScript configuration
-└── vite.config.ts     # Vite setup
-```
-
----
-
-## 🚀 Local Setup & Execution
+## 🚀 Getting Started
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/Jyothireddy-pula/simversehackthon.git
 
 # Navigate to project directory
@@ -135,55 +28,118 @@ npm install
 
 # Start development server
 npm run dev
-```
 
----
+🌍 Applications
 
-## 🌍 Real-World Applications
+Environmental policy evaluation
 
-- Environmental policy testing  
-- Water resource planning  
-- Smart city sustainability modeling  
-- Academic and research demonstrations  
-- Climate and environmental simulations  
+Water resource planning
 
----
+Smart city sustainability analysis
 
-## 🏆 Why This Project Stands Out
+Academic and research demonstrations
 
-- ✔️ Addresses a real, global environmental issue  
-- ✔️ Preventive and predictive approach  
-- ✔️ Policy-first system design  
-- ✔️ Scalable and extensible architecture  
-- ✔️ Strong alignment with sustainability goals  
+Climate and environmental simulations
 
-Judges don’t just see **code** — they see **decision intelligence**.
+🏆 Project Highlights
 
----
+Addresses a real-world global problem
 
-## 🔮 Future-Ready Extensions
+Preventive and predictive policy-first approach
 
-Designed for expansion into:
-- AI-based pollution prediction  
-- Climate impact modeling  
-- Real-time sensor and open-data integration  
-- Automated policy reports  
-- Multi-region comparison dashboards  
+Clear separation of simulation and policy logic
 
----
+Scalable and extensible system architecture
 
-## 👤 Author
+Strong alignment with sustainability goals
 
-**Jyothi Reddy Pula**  
-SimVerse Hackathon Participant  
-GitHub: https://github.com/Jyothireddy-pula  
+⚠️ Current Limitations
 
----
+Rule-based simulation (no machine learning yet)
 
-## 📜 License
+Synthetic parameters for demonstration purposes
+
+No real-time sensor or open-data integration
+
+🔮 Future Enhancements
+
+AI-based pollution prediction models
+
+Climate impact modeling integration
+
+Real-time sensor and open-data connectivity
+
+Automated policy impact reports
+
+Multi-region comparison dashboards
+
+🏗️ System Architecture
+
+AquaSimPolicy follows a modular, layered architecture to ensure clarity, scalability, and maintainability.
+
+Architecture Layers
+
+Presentation Layer
+
+React + TypeScript user interface
+
+User inputs, charts, and scenario comparison views
+
+Simulation Layer
+
+Rule-based pollution accumulation models
+
+Time-step based environmental progression
+
+Policy Engine
+
+Policy parameters (strictness, efficiency, controls)
+
+Intervention logic applied to simulation state
+
+Analysis & Visualization Layer
+
+Trend analysis
+
+Baseline vs policy comparison
+
+Decision-oriented indicators
+
+Configuration & Data Layer
+
+Environmental constants
+
+Type-safe domain models
+
+Metadata and simulation parameters
+
+Architecture Flow
+User Input
+   ↓
+Environment Configuration
+   ↓
+Pollution Source Modeling
+   ↓
+Baseline Simulation
+   ↓
+Policy Intervention Engine
+   ↓
+Re-Simulation
+   ↓
+Outcome Analysis & Visualization
+   ↓
+Decision Support Insights
+
+📄 Academic Abstract
+
+AquaSimPolicy is a policy-first environmental simulation platform designed to evaluate water pollution control strategies before real-world implementation. The system models pollution sources, simulates baseline environmental conditions, and applies regulatory interventions using explainable, rule-based logic. By enabling scenario comparison and outcome visualization, AquaSimPolicy supports predictive decision-making for policymakers, researchers, and planners. The platform reduces uncertainty, minimizes real-world risk, and provides a safe environment for analyzing policy effectiveness in water resource management.
+
+👤 Author
+
+Jyothi Reddy Pula
+SimVerse Hackathon Participant
+GitHub: https://github.com/Jyothireddy-pula
+
+📜 License
 
 MIT License — open for learning, reuse, and extension.
-
----
-
-⭐ If this project helped you rethink environmental decision-making, consider starring the repository.

@@ -194,7 +194,7 @@ AquaSimPolicy is a policy-first environmental simulation platform designed to ev
 
 ## 👤 Author
 
-**Jyothi Reddy Pula**  
+**Jyothi Reddy.Pula**  
 SimVerse Hackathon Participant  
 GitHub: https://github.com/Jyothireddy-pula  
 

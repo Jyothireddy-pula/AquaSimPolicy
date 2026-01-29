@@ -1,7 +1,6 @@
 # 🌊 AquaSimPolicy
 ### A Policy-First Water Pollution Simulation Platform  
 **SimVerse Hackathon Project**
-
 ---
 
 ## 📌 Overview
